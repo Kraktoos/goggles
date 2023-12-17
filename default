@@ -1,0 +1,7 @@
+! name: Default
+! description: Kraktoos' Default Goggle for Day to Day Searches
+! public: true
+! author: kraktoos
+
+$discard
+$site=reddit.com,boost=2
