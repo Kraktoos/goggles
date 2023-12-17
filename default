@@ -13,6 +13,7 @@ $site=superuser.com,boost=1
 $site=store.steampowered.com,boost=1
 $site=dicionario.priberam.org,boost=1
 $site=pt.wikipedia.org,boost=1
+$site=en.wikipedia.org,boost=1
 $site=arxiv.org,boost=1
 $site=quora.com,downrank=1
 $site=msn.com,downrank=1
