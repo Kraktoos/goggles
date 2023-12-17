@@ -20,10 +20,10 @@ $site=wikihow.com,downrank=2
 $site=alternativeto.net,downrank=2
 $site=libhunt.com,downrank=2
 $site=sourceforge.net,downrank=2
-$discard,pinterest.*
+pinterest.*$discard
 
-$boost=1,*.pt
-$downrank=1,*.br
+*.pt$boost=1
+*.br$downrank=1
 $site=dcc.fc.up.pt,boost=2
 $site=estgv.ipv.pt,boost=2
 $site=sigarra.up.pt,boost=2
