@@ -2,7 +2,9 @@
 ! description: Kraktoos' Default Goggle for Day to Day Searches
 ! public: true
 ! author: kraktoos
-
+
+! Global Results
+
 $site=reddit.com,boost=3
 $site=stackoverflow.com,boost=2
 $site=github.com,boost=2
@@ -11,8 +13,6 @@ $site=wiki.archlinux.org,boost=2
 $site=developer.mozilla.org,boost=2
 $site=superuser.com,boost=1
 $site=store.steampowered.com,boost=1
-$site=dicionario.priberam.org,boost=1
-$site=pt.wikipedia.org,boost=1
 $site=en.wikipedia.org,boost=1
 $site=arxiv.org,boost=1
 $site=quora.com,downrank=1
@@ -22,14 +22,19 @@ $site=alternativeto.net,downrank=2
 $site=libhunt.com,downrank=2
 $site=sourceforge.net,downrank=2
 
-$boost=1,site=pt
-$downrank=1,site=br
+! Portugal
+$site=pt,boost
+$site=br,downrank
+
+$site=dicionario.priberam.org,boost=1
+$site=pt.wikipedia.org,boost=1
+
 $site=dcc.fc.up.pt,boost=2
 $site=estgv.ipv.pt,boost=2
 $site=sigarra.up.pt,boost=2
 $site=di.uminho.pt,boost=2
 
-
+! Disabling Pinterest
 $discard,site=investor.pinterestinc.com
 $discard,site=pinterest.at
 $discard,site=pinterest.ca
