@@ -2,6 +2,29 @@
 ! description: Kraktoos' Default Goggle for Day to Day Searches
 ! public: true
 ! author: kraktoos
+
+$site=reddit.com,boost=3
+$site=stackoverflow.com,boost=2
+$site=github.com,boost=2
+$site=news.ycombinator.com,boost=2
+$site=wiki.archlinux.org,boost=2
+$site=developer.mozilla.org,boost=2
+$site=superuser.com,boost=1
+$site=store.steampowered.com,boost=1
+$site=dicionario.priberam.org,boost=1
+$site=pt.wikipedia.org,boost=1
+$site=arxiv.org,boost=1
+$site=quora.com,downrank=1
+$site=msn.com,downrank=1
+$site=wikihow.com,downrank=2
+$site=alternativeto.net,downrank=2
+$site=libhunt.com,downrank=2
+$site=sourceforge.net,downrank=2
+$discard,pinterest.*
 
-$discard
-$site=reddit.com,boost=2
+$boost=1,*.pt
+$downrank=1,*.br
+$site=dcc.fc.up.pt,boost=2
+$site=estgv.ipv.pt,boost=2
+$site=sigarra.up.pt,boost=2
+$site=di.uminho.pt,boost=2
