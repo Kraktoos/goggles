@@ -4,7 +4,6 @@
 ! author: kraktoos
 
 ! Global Results
-
 $site=reddit.com,boost=3
 $site=stackoverflow.com,boost=2
 $site=github.com,boost=2
