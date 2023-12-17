@@ -22,16 +22,16 @@ $site=libhunt.com,downrank=2
 $site=sourceforge.net,downrank=2
 
 ! Portugal
-$site=pt,boost=2
-$site=br,downrank=2
+$site=pt,boost=1
+$site=br,downrank=1
 
-$site=dicionario.priberam.org,boost=3
-$site=pt.wikipedia.org,boost=3
+$site=dicionario.priberam.org,boost=2
+$site=pt.wikipedia.org,boost=2
 
-$site=dcc.fc.up.pt,boost=3
-$site=estgv.ipv.pt,boost=3
-$site=sigarra.up.pt,boost=3
-$site=di.uminho.pt,boost=3
+$site=dcc.fc.up.pt,boost=2
+$site=estgv.ipv.pt,boost=2
+$site=sigarra.up.pt,boost=2
+$site=di.uminho.pt,boost=2
 
 ! Disabling Pinterest
 $discard,site=investor.pinterestinc.com
